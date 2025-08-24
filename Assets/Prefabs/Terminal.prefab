@@ -94,6 +94,9 @@ GameObject:
   - component: {fileID: 3871811131729751225}
   - component: {fileID: 1214564506146566952}
   - component: {fileID: 6305573220382067010}
+  - component: {fileID: 7814369351768069659}
+  - component: {fileID: 1534163238325500235}
+  - component: {fileID: 1072255940477864323}
   m_Layer: 0
   m_Name: TerminalScreen
   m_TagString: Untagged
@@ -166,6 +169,69 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7814369351768069659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3862297985064772748}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0066546476, y: 0.0027464202, z: 0.0023556505}
+  m_Center: {x: 0.00086579187, y: 0.0012546111, z: 0.006404178}
+--- !u!65 &1534163238325500235
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3862297985064772748}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0066922246, y: 0.0027464207, z: 0.0026357176}
+  m_Center: {x: 0.0009208344, y: 0.0012546113, z: -0.0064200927}
+--- !u!65 &1072255940477864323
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3862297985064772748}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.005557653, y: 0.00094469433, z: 0.015163974}
+  m_Center: {x: 0.00031729092, y: 0.00035374536, z: 0.0000000010315779}
 --- !u!1 &4159026840994829720
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,6 +324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5798561518760253972}
+  - component: {fileID: 6913293310670692479}
   m_Layer: 0
   m_Name: Terminal
   m_TagString: Untagged
@@ -282,6 +349,27 @@ Transform:
   - {fileID: 3871811131729751225}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6913293310670692479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6576713965042515422}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.95419884, y: 1.5457573, z: 0.6787605}
+  m_Center: {x: -1.1149192, y: 0.6148331, z: 0.07552719}
 --- !u!1 &6897078171122423144
 GameObject:
   m_ObjectHideFlags: 0
