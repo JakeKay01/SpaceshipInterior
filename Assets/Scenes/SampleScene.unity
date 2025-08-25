@@ -5240,12 +5240,16 @@ PrefabInstance:
       value: FPSController
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.24
+      value: 1.568
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5277,6 +5281,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_UseHeadBob
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6032,6 +6040,7 @@ GameObject:
   - component: {fileID: 3498291566868870819}
   - component: {fileID: 4439941879366567799}
   - component: {fileID: 6841036866959328239}
+  - component: {fileID: 6841036866959328240}
   m_Layer: 0
   m_Name: PipeEndPiece
   m_TagString: Untagged
@@ -6955,6 +6964,7 @@ GameObject:
   - component: {fileID: 1919604386842352006}
   - component: {fileID: 4534852251802321902}
   - component: {fileID: 3278159604846885157}
+  - component: {fileID: 4756346811837435138}
   m_Layer: 0
   m_Name: Pipe (6)
   m_TagString: Untagged
@@ -6962,6 +6972,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4756346811837435138
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756346811837435137}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018788056, y: 0.0055356743, z: 0.0048709842}
+  m_Center: {x: 0.0070815887, y: 0.0023924499, z: -0.000000023981556}
 --- !u!1 &4756346811854883429
 GameObject:
   m_ObjectHideFlags: 0
@@ -6973,6 +7004,7 @@ GameObject:
   - component: {fileID: 1919604386825821922}
   - component: {fileID: 4534852251784774794}
   - component: {fileID: 3278159604829339201}
+  - component: {fileID: 4756346811854883430}
   m_Layer: 0
   m_Name: Pipe (5)
   m_TagString: Untagged
@@ -6980,6 +7012,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4756346811854883430
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756346811854883429}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.01878806, y: 0.005535674, z: 0.0048709847}
+  m_Center: {x: 0.00708159, y: 0.0023924646, z: -0.000000012805687}
 --- !u!1 &4756346811873146381
 GameObject:
   m_ObjectHideFlags: 0
@@ -6991,6 +7044,7 @@ GameObject:
   - component: {fileID: 1919604386815173258}
   - component: {fileID: 4534852251842099426}
   - component: {fileID: 3278159604806943273}
+  - component: {fileID: 4756346811873146382}
   m_Layer: 0
   m_Name: Pipe (3)
   m_TagString: Untagged
@@ -6998,6 +7052,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4756346811873146382
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756346811873146381}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.01878806, y: 0.0055356743, z: 0.004870985}
+  m_Center: {x: 0.0070815957, y: 0.0023924499, z: -0.000000035157434}
 --- !u!1 &4756346811998763428
 GameObject:
   m_ObjectHideFlags: 0
@@ -7009,6 +7084,7 @@ GameObject:
   - component: {fileID: 1919604386969660707}
   - component: {fileID: 4534852251643049803}
   - component: {fileID: 3278159604687588736}
+  - component: {fileID: 4756346811998763429}
   m_Layer: 0
   m_Name: Pipe (1)
   m_TagString: Untagged
@@ -7016,6 +7092,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4756346811998763429
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756346811998763428}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018788056, y: 0.0055356743, z: 0.0048709842}
+  m_Center: {x: 0.0070815887, y: 0.0023924499, z: -0.000000031432137}
 --- !u!1 &4756346812359090082
 GameObject:
   m_ObjectHideFlags: 0
@@ -7027,6 +7124,7 @@ GameObject:
   - component: {fileID: 1919604385250102053}
   - component: {fileID: 4534852252423590221}
   - component: {fileID: 3278159604327295878}
+  - component: {fileID: 4756346812359090083}
   m_Layer: 0
   m_Name: Pipe (8)
   m_TagString: Untagged
@@ -7034,6 +7132,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4756346812359090083
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756346812359090082}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018788064, y: 0.0055356775, z: 0.0048709884}
+  m_Center: {x: 0.0070816022, y: 0.0023924662, z: -0.000000021501672}
 --- !u!1 &4756346812915171716
 GameObject:
   m_ObjectHideFlags: 0
@@ -7045,6 +7164,7 @@ GameObject:
   - component: {fileID: 1919604385776276739}
   - component: {fileID: 4534852252882554731}
   - component: {fileID: 3278159603767047584}
+  - component: {fileID: 4756346812915171717}
   m_Layer: 0
   m_Name: Pipe (4)
   m_TagString: Untagged
@@ -7052,6 +7172,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4756346812915171717
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756346812915171716}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018788064, y: 0.0055356775, z: 0.0048709884}
+  m_Center: {x: 0.007081576, y: 0.0023924513, z: -0.000000021501672}
 --- !u!1 &4756346812961453672
 GameObject:
   m_ObjectHideFlags: 0
@@ -7063,6 +7204,7 @@ GameObject:
   - component: {fileID: 1919604385718215407}
   - component: {fileID: 4534852252892919943}
   - component: {fileID: 3278159603722863180}
+  - component: {fileID: 4756346812961453673}
   m_Layer: 0
   m_Name: Pipe
   m_TagString: Untagged
@@ -7070,6 +7212,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4756346812961453673
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756346812961453672}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018788058, y: 0.0055356743, z: 0.0048709842}
+  m_Center: {x: 0.007081589, y: 0.0023924499, z: -0.000000022118911}
 --- !u!1 &4756346813282862690
 GameObject:
   m_ObjectHideFlags: 0
@@ -7081,6 +7244,7 @@ GameObject:
   - component: {fileID: 1919604385674793701}
   - component: {fileID: 4534852253116680333}
   - component: {fileID: 3278159603934065222}
+  - component: {fileID: 4756346813282862691}
   m_Layer: 0
   m_Name: Pipe (7)
   m_TagString: Untagged
@@ -7088,6 +7252,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4756346813282862691
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756346813282862690}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018788056, y: 0.0055356743, z: 0.0048709842}
+  m_Center: {x: 0.0070815887, y: 0.0023924499, z: -0.000000027706847}
 --- !u!1 &4756346813371732809
 GameObject:
   m_ObjectHideFlags: 0
@@ -7099,6 +7284,7 @@ GameObject:
   - component: {fileID: 1919604385595361230}
   - component: {fileID: 4534852253021527462}
   - component: {fileID: 3278159603847292781}
+  - component: {fileID: 4756346813371732810}
   m_Layer: 0
   m_Name: Pipe (2)
   m_TagString: Untagged
@@ -7106,6 +7292,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &4756346813371732810
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4756346813371732809}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018788058, y: 0.0055356743, z: 0.0048709842}
+  m_Center: {x: 0.0070815966, y: 0.0023924508, z: -0.000000005355105}
 --- !u!1001 &6098219889217842409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7748,6 +7955,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6841036866959328240
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981838008255723645}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.019999992, y: 0.0045854473, z: 0.020000009}
+  m_Center: {x: -0.0000000121071935, y: -0.0000000011641532, z: -0.0000000023283069}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
