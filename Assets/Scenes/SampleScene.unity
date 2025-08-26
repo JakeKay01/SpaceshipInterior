@@ -786,7 +786,7 @@ PrefabInstance:
     - target: {fileID: 2509807214165140025, guid: eefcbd225e1c77042afd03b76dc3fd39,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.807542
+      value: -10.77
       objectReference: {fileID: 0}
     - target: {fileID: 2509807214165140025, guid: eefcbd225e1c77042afd03b76dc3fd39,
         type: 3}
@@ -6870,7 +6870,12 @@ PrefabInstance:
     - target: {fileID: 6918815364904962732, guid: 42d83019588fe1e44b5b31c0218167b4,
         type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
-      value: 0.2457285
+      value: 0.49545443
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918815364904962732, guid: 42d83019588fe1e44b5b31c0218167b4,
+        type: 3}
+      propertyPath: m_LODs.Array.data[1].screenRelativeHeight
+      value: 0.19826359
       objectReference: {fileID: 0}
     - target: {fileID: 8750149120344924168, guid: 42d83019588fe1e44b5b31c0218167b4,
         type: 3}
