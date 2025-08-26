@@ -6746,7 +6746,7 @@ PrefabInstance:
     - target: {fileID: 3513414154349454578, guid: 42d83019588fe1e44b5b31c0218167b4,
         type: 3}
       propertyPath: m_Name
-      value: MountedGun
+      value: MountedGunW/LOD
       objectReference: {fileID: 0}
     - target: {fileID: 6918815364904962732, guid: 42d83019588fe1e44b5b31c0218167b4,
         type: 3}
